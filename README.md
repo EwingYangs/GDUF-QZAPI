@@ -98,12 +98,15 @@ jzwmc：教学楼名称
 精确查询空教室\
 
 <code>http://jwxt.gduf.edu.cn/app.do?method=getKxJscx&time=#查询日期#&idleTime=#见getKxJscx#&xqid=#校区ID#&jxlid=#教学楼ID#&classroomNumber=_#可容纳人数，见下方说明#</code>
+
 xqid、jxlid、classroomNumber是可选参数
+
 **classroomNumber**
 > 30：30人以下\
 30-40：30-40人\
 40-50：40-50人\
 60：60人以上
+
 **返回值**\
 返回JSON数组
 > jsh：教室ID\
@@ -114,12 +117,12 @@ jzwmc：所在楼名\
 xqmc：校区\
 yxzws：教室容量\
 zws：未知，和yxzws相同
-
+3
 ### getUserInfo
 获取帐号信息\
 <code>http://jwxt.gduf.edu.cn/app.do?method=getUserInfo&xh=#学号#</code>
 
-**返回值**\
+**返回值**
 > bj：班级\
 dh：电话号码\
 dqszj：未知\
